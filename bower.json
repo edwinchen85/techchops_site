@@ -1,0 +1,17 @@
+{
+  "name": "techchops",
+  "description": "This is a sample project.",
+  "main": "index.html",
+  "authors": [
+    "Edwin Chen"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
