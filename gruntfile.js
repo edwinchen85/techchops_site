@@ -7,9 +7,7 @@ module.exports = function(grunt) {
   });
 
   // Loading Grunt plugins and tasks
-  grunt.loadNpmTasks('grunt');
-  grunt.loadNpmTasks('grunt-sass');
-  grunt.loadNpmTasks('grunt-contrib-watch');
+  require('load-grunt-tasks')(grunt);
 
   // Custom tasks
 
