@@ -21,6 +21,24 @@ module.exports = function(grunt) {
         }
       }
 
+    },
+
+    /**
+     * Grunt Contri Watch
+     * Monitor files and execute tasks
+     * https://www.npmjs.com/package/grunt-contrib-watch
+     */
+    watch: {
+
+      sass: {
+        files: [
+          'assets/scss/**/*.scss'
+        ],
+        tasks: [
+          'sass'
+        ]
+      }
+
     }
   });
 
@@ -28,6 +46,6 @@ module.exports = function(grunt) {
   require('load-grunt-tasks')(grunt);
 
   // Custom tasks
-  grunt.registerTask('default', ['sass']);
+  grunt.registerTask('default', ['watch']);
 
 }
