@@ -388,3 +388,30 @@ template {
  */
 [hidden] {
   display: none; }
+
+/* Color palette */
+nav ul {
+  list-style: none; }
+
+nav li {
+  display: inline-block; }
+
+nav a {
+  padding: 0 10px; }
+  nav a:hover {
+    color: #b92a16; }
+
+.site-header {
+  background: #231f20; }
+
+.site-title {
+  color: lightgray; }
+
+.header-nav a {
+  color: lightgray; }
+
+.site-footer {
+  background: #231f20; }
+
+.social-menu a {
+  color: #09acc1; }
