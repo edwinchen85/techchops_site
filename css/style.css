@@ -415,3 +415,12 @@ nav a {
 
 .social-menu a {
   color: #09acc1; }
+  .social-menu a:before {
+    font-family: FontAwesome;
+    padding-right: 5px; }
+  .social-menu a.twitter:before {
+    content: '\f099'; }
+  .social-menu a.facebook:before {
+    content: '\f09a'; }
+  .social-menu a.linkedin:before {
+    content: '\f0e1'; }
