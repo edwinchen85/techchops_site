@@ -6,6 +6,18 @@ h1, h2, h3, h4, h5, h6 {
   font-family: $serif;
 }
 
+// Forms
+#{$all-text-inputs} {
+  border: 1px solid $gray;
+  padding: 10px;
+}
+
+#{$all-text-inputs-focus},
+#{$all-text-inputs-hover},
+#{$all-text-inputs-active} {
+  border: 1px solid $red;
+}
+
 nav {
 
   ul {
