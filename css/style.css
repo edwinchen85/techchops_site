@@ -442,6 +442,35 @@ nav a {
   nav a:hover {
     color: #b92a16; }
 
+.wrap {
+  max-width: 70%;
+  margin-left: auto;
+  margin-right: auto; }
+  .wrap:after {
+    content: " ";
+    display: block;
+    clear: both; }
+
+.features .feature {
+  width: 24.0963855422%;
+  float: left;
+  margin-right: 1.2048192771%; }
+  .features .feature:last-child {
+    float: right;
+    margin-right: 0; }
+
+.content {
+  width: 66.265060241%;
+  float: left;
+  margin-right: 1.2048192771%; }
+
+.sidebar {
+  width: 32.5301204819%;
+  float: left;
+  margin-right: 1.2048192771%;
+  float: right;
+  margin-right: 0; }
+
 .hero .overlay {
   background: rgba(244, 170, 9, 0.7); }
 
@@ -453,7 +482,7 @@ nav a {
 
 .feature img {
   height: auto;
-  width: 250px; }
+  width: 100%; }
 
 .customer img {
   border-radius: 20px;

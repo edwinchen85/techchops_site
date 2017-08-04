@@ -4,3 +4,24 @@ $susy: (
   gutters: 1/6,
   global-box-sizing: border-box
 );
+
+.wrap {
+  @include container(70%);
+}
+
+.features .feature {
+  @include span(3);
+
+  &:last-child {
+    @include last;
+  }
+}
+
+.content {
+  @include span(8);
+}
+
+.sidebar {
+  @include span(4);
+  @include last;
+}
