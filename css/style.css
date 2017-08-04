@@ -501,6 +501,16 @@ nav a {
     float: right;
     margin-right: 0; } }
 
+.testimonial {
+  margin-bottom: 1.5em; }
+  @media (min-width: 960px) {
+    .testimonial {
+      width: 49.3975903614%;
+      float: left;
+      margin-right: 1.2048192771%;
+      margin-left: 25.3012048193%;
+      margin-right: 25.3012048193%; } }
+
 .hero .overlay {
   background: rgba(244, 170, 9, 0.7); }
 
@@ -518,6 +528,17 @@ nav a {
   border-radius: 20px;
   height: 150px;
   width: 150px; }
+
+.testimonials {
+  background-color: #09acc1;
+  color: lightgray;
+  text-align: center;
+  padding: 2em 0 1.5em; }
+  .testimonials .name {
+    display: block; }
+  .testimonials .quote {
+    font-style: italic;
+    font-family: "Playfair Display", serif; }
 
 .site-header {
   background: #231f20;

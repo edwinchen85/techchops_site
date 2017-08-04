@@ -18,3 +18,19 @@
   border-radius: $default-border-radius;
   @include size(150px);
 }
+
+.testimonials {
+  background-color: $blue;
+  color: $gray;
+  text-align: center;
+  padding: 2em 0 1.5em;
+
+  .name {
+    display: block;
+  }
+
+  .quote {
+    font-style: italic;
+    font-family: $serif;
+  }
+}

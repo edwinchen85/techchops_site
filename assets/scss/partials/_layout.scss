@@ -56,3 +56,13 @@ $susy: (
     @include last;
   }
 }
+
+.testimonial {
+  margin-bottom: 1.5em;
+
+  @include susy-breakpoint($large) {
+    @include span(6);
+    @include push(3);
+    @include post(3);
+  }
+}
