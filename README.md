@@ -13,3 +13,5 @@ To-dos include:
 - Creating a mobile-first layout
 
 [View demo site here.](http://edwinchen.co/techchops_site/)
+
+![Preview](screenshot.png)
