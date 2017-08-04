@@ -6,6 +6,7 @@
  * 2. Prevent adjustments of font size after orientation changes in
  *    IE on Windows Phone and in iOS.
  */
+@import url("https://fonts.googleapis.com/css?family=Playfair+Display|Raleway");
 html {
   line-height: 1.15;
   /* 1 */
@@ -390,6 +391,12 @@ template {
   display: none; }
 
 /* Color palette */
+body {
+  font-family: "Raleway", sans-serif; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Playfair Display", serif; }
+
 nav ul {
   list-style: none; }
 
