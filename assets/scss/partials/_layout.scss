@@ -9,19 +9,37 @@ $susy: (
   @include container(70%);
 }
 
-.features .feature {
-  @include span(3);
+.features {
+  @include clearfix;
+}
 
-  &:last-child {
-    @include last;
+.features .feature {
+  @include susy-breakpoint($medium $large - 1) {
+    @include span(6);
+
+    &:nth-of-type(even) {
+      @include last;
+    }
+  }
+
+  @include susy-breakpoint($large) {
+    @include span(3);
+
+    &:last-child {
+      @include last;
+    }
   }
 }
 
 .content {
-  @include span(8);
+  @include susy-breakpoint($large) {
+    @include span(8);
+  }
 }
 
 .sidebar {
-  @include span(4);
-  @include last;
+  @include susy-breakpoint($large) {
+    @include span(4);
+    @include last;
+  }
 }

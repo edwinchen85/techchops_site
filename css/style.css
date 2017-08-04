@@ -451,25 +451,42 @@ nav a {
     display: block;
     clear: both; }
 
-.features .feature {
-  width: 24.0963855422%;
-  float: left;
-  margin-right: 1.2048192771%; }
-  .features .feature:last-child {
+.features::after {
+  clear: both;
+  content: "";
+  display: table; }
+
+@media (min-width: 640px) and (max-width: 959px) {
+  .features .feature {
+    width: 49.3975903614%;
+    float: left;
+    margin-right: 1.2048192771%; }
+    .features .feature:nth-of-type(even) {
+      float: right;
+      margin-right: 0; } }
+
+@media (min-width: 960px) {
+  .features .feature {
+    width: 24.0963855422%;
+    float: left;
+    margin-right: 1.2048192771%; }
+    .features .feature:last-child {
+      float: right;
+      margin-right: 0; } }
+
+@media (min-width: 960px) {
+  .content {
+    width: 66.265060241%;
+    float: left;
+    margin-right: 1.2048192771%; } }
+
+@media (min-width: 960px) {
+  .sidebar {
+    width: 32.5301204819%;
+    float: left;
+    margin-right: 1.2048192771%;
     float: right;
-    margin-right: 0; }
-
-.content {
-  width: 66.265060241%;
-  float: left;
-  margin-right: 1.2048192771%; }
-
-.sidebar {
-  width: 32.5301204819%;
-  float: left;
-  margin-right: 1.2048192771%;
-  float: right;
-  margin-right: 0; }
+    margin-right: 0; } }
 
 .hero .overlay {
   background: rgba(244, 170, 9, 0.7); }
