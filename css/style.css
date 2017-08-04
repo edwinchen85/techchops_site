@@ -442,6 +442,24 @@ nav a {
   nav a:hover {
     color: #b92a16; }
 
+.hero .overlay {
+  background: rgba(244, 170, 9, 0.7); }
+
+.hero {
+  text-align: center; }
+
+.hero .wrap {
+  padding: 60px 0; }
+
+.feature img {
+  height: auto;
+  width: 250px; }
+
+.customer img {
+  border-radius: 20px;
+  height: 150px;
+  width: 150px; }
+
 .site-header {
   background: #231f20; }
 
