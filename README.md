@@ -11,3 +11,5 @@ To-dos include:
 - Creatinga color palette with variables
 - Using Font Awesome
 - Creating a mobile-first layout
+
+[View demo site here.](http://edwinchen.co/techchops_site/)
