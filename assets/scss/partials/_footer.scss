@@ -1,9 +1,16 @@
 .site-footer {
   background: $black;
+  text-align: center;
+
+  ul {
+    margin: 0;
+    padding: 2em 0;
+  }
 }
 
 .social-menu a {
   color: $blue;
+  text-decoration: none;
 
   &:before {
     font-family: FontAwesome;

@@ -451,6 +451,19 @@ nav a {
     display: block;
     clear: both; }
 
+@media (min-width: 640px) {
+  .site-branding {
+    width: 24.0963855422%;
+    float: left;
+    margin-right: 1.2048192771%; } }
+
+@media (min-width: 640px) {
+  .header-nav {
+    width: 74.6987951807%;
+    float: right;
+    margin-right: 0;
+    padding-top: 40px; } }
+
 .features::after {
   clear: both;
   content: "";
@@ -507,19 +520,30 @@ nav a {
   width: 150px; }
 
 .site-header {
-  background: #231f20; }
+  background: #231f20;
+  text-align: center; }
 
 .site-title {
   color: lightgray; }
 
+.header-nav ul {
+  margin: 0;
+  padding: 0; }
+
 .header-nav a {
-  color: lightgray; }
+  color: lightgray;
+  text-decoration: none; }
 
 .site-footer {
-  background: #231f20; }
+  background: #231f20;
+  text-align: center; }
+  .site-footer ul {
+    margin: 0;
+    padding: 2em 0; }
 
 .social-menu a {
-  color: #09acc1; }
+  color: #09acc1;
+  text-decoration: none; }
   .social-menu a:before {
     font-family: FontAwesome;
     padding-right: 5px; }

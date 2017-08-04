@@ -9,6 +9,19 @@ $susy: (
   @include container(70%);
 }
 
+.site-branding {
+  @include susy-breakpoint($medium) {
+    @include span(3);
+  }
+}
+
+.header-nav {
+  @include susy-breakpoint($medium) {
+    @include span(9 last);
+    padding-top: 40px;
+  }
+}
+
 .features {
   @include clearfix;
 }
