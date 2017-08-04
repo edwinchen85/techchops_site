@@ -406,6 +406,19 @@ input[type="color"]:hover, input[type="date"]:hover, input[type="datetime"]:hove
 input[type="color"]:active, input[type="date"]:active, input[type="datetime"]:active, input[type="datetime-local"]:active, input[type="email"]:active, input[type="month"]:active, input[type="number"]:active, input[type="password"]:active, input[type="search"]:active, input[type="tel"]:active, input[type="text"]:active, input[type="time"]:active, input[type="url"]:active, input[type="week"]:active, input:not([type]):active, textarea:active {
   border: 1px solid #b92a16; }
 
+button, input[type="button"], input[type="reset"], input[type="submit"] {
+  background-color: #b92a16;
+  border: 1px solid lightgray;
+  color: lightgray;
+  padding: 10px; }
+
+button:focus, input[type="button"]:focus, input[type="reset"]:focus, input[type="submit"]:focus,
+button:hover, input[type="button"]:hover, input[type="reset"]:hover, input[type="submit"]:hover,
+button:active, input[type="button"]:active, input[type="reset"]:active, input[type="submit"]:active {
+  background-color: lightgray;
+  border-color: #b92a16;
+  color: #b92a16; }
+
 nav ul {
   list-style: none; }
 
